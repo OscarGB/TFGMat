@@ -8,8 +8,8 @@ p = [0,0,0,0] # Two intervals
 nIter = 100 # For numeric Fourier
 nPoints = 256 # Points of the grid
 nTime = 50 # Points of the grid in time
-nFunctions = 5 # Number of functions to try
-timeInterval = 0.1 # Time between points in the time grid
+nFunctions = 1 # Number of functions to try
+timeInterval = 0.005 # Time between points in the time grid
 alpha = 0.5 # Thermic constant
 
 slices = np.arange(0, L, L/(nPoints-1)).tolist()
@@ -28,19 +28,30 @@ def f(x, new=False):
 		p.sort()
 	else:
 		if(x > p[0] and x < p[1]) or (x > p[2] and x < p[3]):
-			return 1
+			return 3
 		else:
 			return 0
 
 
-def getSolution(x, t, alpha, L):
-	res = 0
+# def getSolution(x, t, alpha, L):
+# 	res = 0
+# 	for n in range(nIter):
+# 		I = quad(integrand, 0, L, args=(n,L))
+# 		F = I[0]*np.sin(n*np.pi*x/L)
+# 		F = F*np.e**(-n**2*np.pi**2*alpha*t/L**2)
+# 		res += F
+# 	return res*2/L
+
+def getSolution(x, alpha, L):
+	res = [0]*(nTime)
+	res[0] = f(x)
 	for n in range(nIter):
 		I = quad(integrand, 0, L, args=(n,L))
 		F = I[0]*np.sin(n*np.pi*x/L)
-		F = F*np.e**(-n**2*np.pi**2*alpha*t/L**2)
-		res += F
-	return res*2/L
+		for t in range(1, nTime):
+			F = F*np.e**(-n**2*np.pi**2*alpha*t*timeInterval/L**2)
+			res[t] += F*2/L
+	return res
 
 def main():
 	mat = []
@@ -48,11 +59,9 @@ def main():
 		tup = [[],[]]
 		f(0, True)
 		tup[0] = [f(x) for x in slices]
-		tup[1] = [f(x) for x in slices]
-		for t in range(1, nTime):
-			for x in slices:
-				tup[1].append(getSolution(x,t*timeInterval,alpha,L))
-			print(str(t))
+		for x in slices:
+			tup[1] += (getSolution(x,alpha,L))
+			print len(tup[1])
 		mat.append(tup)
 	file = open(outFile, "wb")
 	np.save(file, mat)
