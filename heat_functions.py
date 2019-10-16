@@ -1,14 +1,13 @@
 from scipy.integrate import quad    
 import numpy as np
 
-
 # Globals
 L = np.pi # Length
 p = [0,0,0,0] # Two intervals
 nIter = 100 # For numeric Fourier
 nPoints = 256 # Points of the grid
 nTime = 50 # Points of the grid in time
-nFunctions = 1 # Number of functions to try
+nFunctions = 100 # Number of functions to try
 timeInterval = 0.005 # Time between points in the time grid
 alpha = 0.5 # Thermic constant
 
@@ -16,7 +15,6 @@ slices = np.arange(0, L, L/(nPoints-1)).tolist()
 slices.append(L)
 
 outFile = "heat_eqs"
-
 
 def integrand(x, n, L):
 	return f(x) * np.sin((n*x*np.pi)/L)
@@ -31,16 +29,6 @@ def f(x, new=False):
 			return 3
 		else:
 			return 0
-
-
-# def getSolution(x, t, alpha, L):
-# 	res = 0
-# 	for n in range(nIter):
-# 		I = quad(integrand, 0, L, args=(n,L))
-# 		F = I[0]*np.sin(n*np.pi*x/L)
-# 		F = F*np.e**(-n**2*np.pi**2*alpha*t/L**2)
-# 		res += F
-# 	return res*2/L
 
 def getSolution(x, alpha, L):
 	res = [0]*(nTime)
@@ -61,8 +49,8 @@ def main():
 		tup[0] = [f(x) for x in slices]
 		for x in slices:
 			tup[1] += (getSolution(x,alpha,L))
-			print len(tup[1])
 		mat.append(tup)
+		print(len(mat))
 	file = open(outFile, "wb")
 	np.save(file, mat)
 	file.close()
