@@ -5,16 +5,16 @@ import numpy as np
 L = np.pi # Length
 p = [0,0,0,0] # Two intervals
 nIter = 100 # For numeric Fourier
-nPoints = 256 # Points of the grid
+nPoints = 100 # Points of the grid
 nTime = 50 # Points of the grid in time
-nFunctions = 100 # Number of functions to try
-timeInterval = 0.005 # Time between points in the time grid
+nFunctions = 1000 # Number of functions to try
+timeInterval = 0.001 # Time between points in the time grid
 alpha = 0.5 # Thermic constant
 
 slices = np.arange(0, L, L/(nPoints-1)).tolist()
 slices.append(L)
 
-outFile = "heat_eqs"
+outFile = "heat_eqs.eqs"
 
 def integrand(x, n, L):
 	return f(x) * np.sin((n*x*np.pi)/L)
@@ -26,7 +26,7 @@ def f(x, new=False):
 		p.sort()
 	else:
 		if(x > p[0] and x < p[1]) or (x > p[2] and x < p[3]):
-			return 3
+			return 1
 		else:
 			return 0
 
