@@ -24,7 +24,7 @@ def main():
 	model.add(Dense(5000, activation='linear'))
 	model.compile(loss='mean_squared_error', optimizer='adam', metrics=['accuracy'])
 
-	model.fit(X_train, y_train, epochs=20, batch_size=100)
+	model.fit(X_train, y_train, epochs=10, batch_size=100)
 
 	_, accuracy = model.evaluate(X_test, y_test)
 	print('Accuracy: %.2f' % (accuracy*100))
