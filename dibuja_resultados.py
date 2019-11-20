@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from keras.models import model_from_json
 import sys
 
 file = "resultados/" + sys.argv[1] + ".res"
