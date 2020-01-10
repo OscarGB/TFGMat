@@ -1,6 +1,7 @@
 from scipy.integrate import quad    
 import numpy as np
 from keras.models import model_from_json
+import sys
 
 
 # Globals
@@ -15,13 +16,13 @@ alpha = 0.5 # Thermic constant
 slices = np.arange(0, L, L/(nPoints-1)).tolist()
 slices.append(L)
 
-outFile = "resultados/cuadrado.res"
+outFile = "resultados/" + sys.argv[1] + ".res"
 
 def integrand(x, n, L):
 	return f(x) * np.sin((n*x*np.pi)/L)
 
 def f(x, new=False):
-	x = x/np.pi
+	# x = x/np.pi
 	# global p
 	# if(new):
 	# 	p = [np.random.uniform(0, 1)*(L-0.01) for _ in range(4)]
@@ -31,7 +32,11 @@ def f(x, new=False):
 	# 		return 1
 	# 	else:
 	# 		return 0
-	return x*x
+	# return x*x
+	if x < np.pi/2:
+		return 0.3
+	else:
+		return 0.8
 
 def getSolution(x, alpha, L):
 	res = [0]*(nTime)

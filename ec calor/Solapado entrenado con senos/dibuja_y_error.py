@@ -101,3 +101,10 @@ fig.subplots_adjust(right=0.9)
 fig.colorbar(im, ax=axes)
 
 plt.show()
+
+
+#Check things after
+error  = np.abs(data[0][1] - data[1])
+print(np.max(error))
+print(np.where(error == np.max(error)))
+print(np.mean(error))

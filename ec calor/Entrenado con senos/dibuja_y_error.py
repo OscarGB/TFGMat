@@ -8,9 +8,8 @@
 
 # fig, axes = plt.subplots(nrows=2, ncols=1)
 
-# plt.setp(axes, xticks=[0, 10, 20, 30, 40, 50, 60, 70, 80, 90], xticklabels=[0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09],
+# plt.setp(axes, xticks=[0, 10, 20, 30, 40], xticklabels=[0, 0.01, 0.02, 0.03, 0.04],
 #         yticks=[0, 50, 100], yticklabels=[0, 1.5708, 3.1416])
-# fig.autofmt_xdate(rotation=45)
 
 # im = axes.flat[0].contourf(data[0][1], np.arange(np.min(np.minimum(data[0][1], data[1])), np.max(np.maximum(data[0][1], data[1])), 0.2))
 # im = axes.flat[1].contourf(data[1], np.arange(np.min(np.minimum(data[0][1], data[1])), np.max(np.maximum(data[0][1], data[1])), 0.2))
@@ -20,16 +19,12 @@
 # fig.subplots_adjust(right=0.9)
 # fig.colorbar(im, ax=axes.flat)
 
-# axes.flat[0].grid(True)
-# axes.flat[1].grid(True)
-
 # plt.show()
 
 # fig, axes = plt.subplots(nrows=1, ncols=1)
 
-# plt.setp(axes, xticks=[0, 10, 20, 30, 40, 50, 60, 70, 80, 90], xticklabels=[0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09],
+# plt.setp(axes, xticks=[0, 10, 20, 30, 40], xticklabels=[0, 0.01, 0.02, 0.03, 0.04],
 #         yticks=[0, 50, 100], yticklabels=[0, 1.5708, 3.1416])
-# fig.autofmt_xdate(rotation=45)
 
 # error = np.abs(data[0][1] - data[1])
 
@@ -40,6 +35,20 @@
 
 # plt.show()
 
+# import numpy as np
+# import matplotlib.pyplot as plt
+# import sys
+
+# file = "resultados/" + sys.argv[1] + ".res"
+
+# data = np.load(file, allow_pickle=True)
+
+# fig, axes = plt.subplots(nrows=2, ncols=1)
+# im = axes.flat[0].contourf(data[0][1])
+# im = axes.flat[1].contourf(data[1])
+# fig.subplots_adjust(right=0.8)
+# fig.colorbar(im, ax=axes.flat)
+# plt.show()
 
 
 import numpy as np
@@ -51,7 +60,7 @@ L = np.pi # Length
 p = [0,0,0,0] # Two intervals
 nIter = 100 # For numeric Fourier
 nPoints = 100 # Points of the grid
-nTime = 100 # Points of the grid in time
+nTime = 50 # Points of the grid in time
 nFunctions = 1000 # Number of functions to try
 timeInterval = 0.001 # Time between points in the time grid
 alpha = 0.5 # Thermic constant
@@ -66,7 +75,7 @@ data = np.load(file, allow_pickle=True)
 
 fig, axes = plt.subplots(nrows=2, ncols=1)
 
-a = [0,10,20,30,40,50,60,70,80,90]
+a = [0,10,20,30,40]
 
 plt.setp(axes, xticks=a, xticklabels=[format(tim[b], '.3f') for b in a],
         yticks=[0, 50, 100], yticklabels=[0, 1.5708, 3.1416])
@@ -101,3 +110,11 @@ fig.subplots_adjust(right=0.9)
 fig.colorbar(im, ax=axes)
 
 plt.show()
+
+
+
+#Check things after
+error  = np.abs(data[0][1] - data[1])
+print(np.max(error))
+print(np.where(error == np.max(error)))
+print(np.mean(error))
