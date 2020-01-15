@@ -78,11 +78,11 @@ fig, axes = plt.subplots(nrows=2, ncols=1)
 a = [0,10,20,30,40]
 
 plt.setp(axes, xticks=a, xticklabels=[format(tim[b], '.3f') for b in a],
-        yticks=[0, 50, 100], yticklabels=[0, 1.5708, 3.1416])
+        yticks=[0, 50, 100], yticklabels=[0, 1.5708, 3.1416], xlabel='t', ylabel='x')
 fig.autofmt_xdate(rotation=45)
 
-im = axes.flat[0].contourf(data[0][1], np.arange(np.min(np.minimum(data[0][1], data[1])), np.max(np.maximum(data[0][1], data[1]))+0.1, 0.1))
-im = axes.flat[1].contourf(data[1], np.arange(np.min(np.minimum(data[0][1], data[1])), np.max(np.maximum(data[0][1], data[1]))+0.1, 0.1))
+im = axes.flat[0].contourf(data[0][1], np.arange(-0.2, 1.4, 0.1))
+im = axes.flat[1].contourf(data[1], np.arange(-0.2, 1.4, 0.1))
 axes.flat[0].set_title("Exact solution")
 axes.flat[1].set_title("Neural Network solution")
 
@@ -96,13 +96,12 @@ plt.show()
 fig, axes = plt.subplots(nrows=1, ncols=1)
 
 plt.setp(axes, xticks=a, xticklabels=[format(tim[b], '.3f') for b in a],
-        yticks=[0, 50, 100], yticklabels=[0, 1.5708, 3.1416])
+        yticks=[0, 50, 100], yticklabels=[0, 1.5708, 3.1416], xlabel='t', ylabel='x')
 fig.autofmt_xdate(rotation=45)
 
-error = np.log(np.abs(data[0][1] - data[1]))
+error = np.log10(np.abs(data[0][1] - data[1]))
 
-im = axes.contourf(error, np.arange(np.min(error)+0.1, np.max(error)+0.1, 0.1))
-axes.set_title("Log of absolute error")
+im = axes.contourf(error, np.arange(-5,0, 0.1))
 
 axes.grid(True)
 
@@ -118,3 +117,4 @@ error  = np.abs(data[0][1] - data[1])
 print(np.max(error))
 print(np.where(error == np.max(error)))
 print(np.mean(error))
+print(np.max([a[1:] for a in error]))
