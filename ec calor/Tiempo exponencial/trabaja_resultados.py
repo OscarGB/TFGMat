@@ -27,21 +27,21 @@ def f(x, new=False):
 	# seno 
 	# return np.sin(x)
 	# dirac
-	global p
-	if(new):
-		p = [np.random.uniform(0, 1)*(L-0.01) for _ in range(4)]
-		p.sort()
-	else:
-		if(x > p[0] and x < p[1]) or (x > p[2] and x < p[3]):
-			return 1
-		else:
-			return 0
+	# global p
+	# if(new):
+	# 	p = [np.random.uniform(0, 1)*(L-0.01) for _ in range(4)]
+	# 	p.sort()
+	# else:
+	# 	if(x > p[0] and x < p[1]) or (x > p[2] and x < p[3]):
+	# 		return 1
+	# 	else:
+	# 		return 0
 	# triangulo
 	# x = 2*(x/np.pi)
 	# if x < 1:
 	# 	return x
 	# else:
-	# 	return 1-x/2
+	# 	return 2-x
 	# cuadrado
 	# return x**2
 	# escalera
@@ -49,6 +49,15 @@ def f(x, new=False):
 	# 	return 0.3
 	# else:
 	# 	return 0.8
+	# escalera con margen
+	# if x < np.pi/2 and 0.2 < x:
+	# 	return 0.3
+	# elif x > 0.5 and x < np.pi-0.2:
+	# 	return 0.8
+	# else:
+	# 	return 0
+	# polinomica
+	return -(x-0)*(x-np.pi)
 
 def getSolution(x, alpha, L):
 	res = [0]*(nTime)

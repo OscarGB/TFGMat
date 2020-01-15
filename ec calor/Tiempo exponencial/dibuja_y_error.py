@@ -21,8 +21,10 @@ plt.setp(axes, xticks=a, xticklabels=[format(tim[b], '.3f') for b in a],
         yticks=[0, 50, 100], yticklabels=[0, 1.5708, 3.1416], xlabel='t', ylabel='x')
 fig.autofmt_xdate(rotation=45)
 
-im = axes.flat[0].contourf(data[0][1], np.arange(-0.2, 1.4, 0.1))
-im = axes.flat[1].contourf(data[1], np.arange(-0.2, 1.4, 0.1))
+# im = axes.flat[0].contourf(data[0][1], np.arange(-0.2, 1.4, 0.1))
+# im = axes.flat[1].contourf(data[1], np.arange(-0.2, 1.4, 0.1))
+im = axes.flat[0].contourf(data[0][1], np.arange(-0.2, 3, 0.3))
+im = axes.flat[1].contourf(data[1], np.arange(-0.2, 3, 0.3))
 axes.flat[0].set_title("Exact solution")
 axes.flat[1].set_title("Neural Network solution")
 
