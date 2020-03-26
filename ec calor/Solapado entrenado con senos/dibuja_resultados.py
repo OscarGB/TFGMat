@@ -69,7 +69,7 @@ fig, axes = plt.subplots(nrows=2, ncols=1)
 a = [0,10,20,30,40,50,60,70,80,90]
 
 plt.setp(axes, xticks=a, xticklabels=[format(tim[b], '.3f') for b in a],
-        yticks=[0, 50, 100], yticklabels=[0, 1.5708, 3.1416])
+        yticks=[0, 50, 100], yticklabels=[0, 1.5708, 3.1416], xlabel='t', ylabel='x')
 fig.autofmt_xdate(rotation=45)
 
 im = axes.flat[0].contourf(data[0][1], np.arange(np.min(np.minimum(data[0][1], data[1])), np.max(np.maximum(data[0][1], data[1]))+0.1, 0.1))
@@ -87,7 +87,7 @@ plt.show()
 fig, axes = plt.subplots(nrows=1, ncols=1)
 
 plt.setp(axes, xticks=a, xticklabels=[format(tim[b], '.3f') for b in a],
-        yticks=[0, 50, 100], yticklabels=[0, 1.5708, 3.1416])
+        yticks=[0, 50, 100], yticklabels=[0, 1.5708, 3.1416], xlabel='t', ylabel='x')
 fig.autofmt_xdate(rotation=45)
 
 error = np.log(np.abs(data[0][1] - data[1]))

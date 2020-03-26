@@ -1,34 +1,11 @@
-# import numpy as np
-# import matplotlib.pyplot as plt
-# import sys
-
-# file = "resultados/" + sys.argv[1] + ".res"
-
-# data = np.load(file, allow_pickle=True)
-
-# fig, axes = plt.subplots(nrows=2, ncols=1)
-# im = axes.flat[0].contourf(data[0][1])
-# im = axes.flat[1].contourf(data[1])
-# fig.subplots_adjust(right=0.8)
-# fig.colorbar(im, ax=axes.flat)
-# plt.show()
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
 
-# Globals
 L = np.pi # Length
-p = [0,0,0,0] # Two intervals
-nIter = 100 # For numeric Fourier
+nTime = 50
 nPoints = 100 # Points of the grid
-nTime = 50 # Points of the grid in time
-nFunctions = 1000 # Number of functions to try
-timeInterval = 0.001 # Time between points in the time grid
-alpha = 0.5 # Thermic constant
-
-tim = [t * timeInterval for t in range(nTime)]
+tim = [(-1+np.exp(n/nTime))/20 for n in range(0,nTime)]
 slices = np.arange(0, L, L/(nPoints-1)).tolist()
 slices.append(L)
 
@@ -38,14 +15,16 @@ data = np.load(file, allow_pickle=True)
 
 fig, axes = plt.subplots(nrows=2, ncols=1)
 
-a = [0,10,20,30,40]
+a = [1,3,6,10,15,21,28,36,47]
 
 plt.setp(axes, xticks=a, xticklabels=[format(tim[b], '.3f') for b in a],
         yticks=[0, 50, 100], yticklabels=[0, 1.5708, 3.1416], xlabel='t', ylabel='x')
 fig.autofmt_xdate(rotation=45)
 
-im = axes.flat[0].contourf(data[0][1], np.arange(-0.2, 1.4, 0.1))
-im = axes.flat[1].contourf(data[1], np.arange(-0.2, 1.4, 0.1))
+# im = axes.flat[0].contourf(data[0][1], np.arange(-0.2, 1.4, 0.1))
+# im = axes.flat[1].contourf(data[1], np.arange(-0.2, 1.4, 0.1))
+im = axes.flat[0].contourf(data[0][1], np.arange(-0.2, 3, 0.3))
+im = axes.flat[1].contourf(data[1], np.arange(-0.2, 3, 0.3))
 axes.flat[0].set_title("Exact solution")
 axes.flat[1].set_title("Neural Network solution")
 
