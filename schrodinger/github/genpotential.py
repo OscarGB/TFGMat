@@ -1,8 +1,8 @@
 # genpotential.py
 # This snippet of python code generates random potentials of 3 different types,
 # Step functions, piecewise linear functions, and random Fourier series.
-# Each of these types gets more “jagged” as generation progresses.
-# The ground state wavefunction of each potential is found using Tensorflow’s gradient
+# Each of these types gets more jagged as generation progresses.
+# The ground state wavefunction of each potential is found using Tensorflows gradient
 # descent method on the energy functional given by the Schroedinger equation.
 # The potentials and solutions are partitioned into training and validation data
 # and saved with the random seed appended to the filename
