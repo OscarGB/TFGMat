@@ -40,7 +40,7 @@ def generatepot(style,param): #0=step,1=linear,2=fourier; 0-1 "jaggedness" scale
         poten = np.maximum(np.add(np.add(np.matmul(sincoef,sinval),np.matmul(coscoef,cosval)),zercoef),0).tolist()
     return poten
 
-seed = 0
+seed = 19
 np.random.seed(seed)
 bins = 128 #dx = 1/bins; actual number of columns saved = bins-1, because 1st and last are 0
 npots = 200 #ends up being 3*this*(validnth-1)/validnth
