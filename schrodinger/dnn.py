@@ -51,15 +51,18 @@ model.add(Dense(127, activation='softplus'))
 model.add(Dense(127, activation='softplus'))
 model.add(Dense(127, activation='softplus'))
 model.add(Dense(127, activation='softplus'))
-model.compile(loss='mean_squared_error', optimizer='adam', metrics=['accuracy'])
+model.compile(loss='mean_squared_error', optimizer='adam')
 
 trainx = np.array(trainx)
 trainy = np.array(trainy)
 validx = np.array(validx)
 validy = np.array(validy)
 
-model.fit(trainx, trainy, epochs=100000, verbose=2)
-_, accuracy = model.evaluate(validx, validy)
+print(validy)
+print(validx)
+
+model.fit(trainx, trainy, epochs=100000, batch_size=960, verbose=2)
+accuracy = model.evaluate(validx, validy)
 print('Accuracy: %.2f' % (accuracy*100))
 
 # serialize model to JSON
