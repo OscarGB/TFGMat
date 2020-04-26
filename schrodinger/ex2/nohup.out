@@ -1,0 +1,680 @@
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-24 08:12:24.908117: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-24 08:12:25.008062: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-24 08:12:25.010700: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55b474953750 executing computations on platform Host. Devices:
+2020-04-24 08:12:25.010777: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-24 08:12:25.118134: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-24 08:12:27.185689: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-24 08:12:27.219934: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-24 08:12:27.224240: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5584ae12f750 executing computations on platform Host. Devices:
+2020-04-24 08:12:27.224308: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-24 08:12:27.234096: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-24 08:12:32.481098: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-24 08:12:32.528091: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-24 08:12:32.530203: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55c4d37fa750 executing computations on platform Host. Devices:
+2020-04-24 08:12:32.530245: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-24 08:12:32.543750: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-24 08:12:36.940362: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-24 08:12:36.988531: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-24 08:12:36.991031: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5572c26f5750 executing computations on platform Host. Devices:
+2020-04-24 08:12:36.991079: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-24 08:12:37.002622: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-24 08:12:39.523465: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-24 08:12:39.555951: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-24 08:12:39.559627: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x56062158a750 executing computations on platform Host. Devices:
+2020-04-24 08:12:39.559676: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-24 08:12:39.573224: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+5.0% complete
+5.0% complete
+5.0% complete
+5.0% complete
+5.0% complete
+10.0% complete
+10.0% complete
+10.0% complete
+10.0% complete
+10.0% complete
+15.0% complete
+15.0% complete
+15.0% complete
+15.0% complete
+15.0% complete
+20.0% complete
+20.0% complete
+20.0% complete
+20.0% complete
+20.0% complete
+25.0% complete
+25.0% complete
+25.0% complete
+25.0% complete
+25.0% complete
+30.0% complete
+30.0% complete
+30.0% complete
+30.0% complete
+30.0% complete
+35.0% complete
+35.0% complete
+35.0% complete
+35.0% complete
+35.0% complete
+40.0% complete
+40.0% complete
+40.0% complete
+40.0% complete
+40.0% complete
+45.0% complete
+45.0% complete
+45.0% complete
+45.0% complete
+45.0% complete
+50.0% complete
+50.0% complete
+50.0% complete
+50.0% complete
+50.0% complete
+55.0% complete
+55.0% complete
+55.0% complete
+55.0% complete
+55.0% complete
+60.0% complete
+60.0% complete
+60.0% complete
+60.0% complete
+60.0% complete
+65.0% complete
+65.0% complete
+65.0% complete
+65.0% complete
+65.0% complete
+70.0% complete
+70.0% complete
+70.0% complete
+70.0% complete
+70.0% complete
+75.0% complete
+75.0% complete
+75.0% complete
+75.0% complete
+75.0% complete
+80.0% complete
+80.0% complete
+80.0% complete
+80.0% complete
+80.0% complete
+85.0% complete
+85.0% complete
+85.0% complete
+85.0% complete
+85.0% complete
+90.0% complete
+90.0% complete
+90.0% complete
+90.0% complete
+90.0% complete
+95.0% complete
+95.0% complete
+95.0% complete
+95.0% complete
+95.0% complete
+Output complete
+Output complete
+Output complete
+Output complete
+Output complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-24 14:20:32.085488: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-24 14:20:32.116102: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-24 14:20:32.117278: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55d021007750 executing computations on platform Host. Devices:
+2020-04-24 14:20:32.117318: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-24 14:20:32.128038: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-24 14:20:39.486472: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-24 14:20:39.516001: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-24 14:20:39.516739: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55f179330750 executing computations on platform Host. Devices:
+2020-04-24 14:20:39.516799: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-24 14:20:39.525414: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-24 14:20:42.591185: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-24 14:20:42.619871: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-24 14:20:42.620455: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5647177f0750 executing computations on platform Host. Devices:
+2020-04-24 14:20:42.620482: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-24 14:20:42.627913: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-24 14:20:45.800079: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-24 14:20:45.827929: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-24 14:20:45.828743: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55bcc268b750 executing computations on platform Host. Devices:
+2020-04-24 14:20:45.828783: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-24 14:20:45.836680: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-24 14:20:49.364812: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-24 14:20:49.400010: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-24 14:20:49.400833: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5568dcf69750 executing computations on platform Host. Devices:
+2020-04-24 14:20:49.400869: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-24 14:20:49.409200: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+5.0% complete
+5.0% complete
+5.0% complete
+5.0% complete
+5.0% complete
+10.0% complete
+10.0% complete
+10.0% complete
+10.0% complete
+10.0% complete
+15.0% complete
+15.0% complete
+15.0% complete
+15.0% complete
+15.0% complete
+20.0% complete
+20.0% complete
+20.0% complete
+20.0% complete
+20.0% complete
+25.0% complete
+25.0% complete
+25.0% complete
+25.0% complete
+25.0% complete
+30.0% complete
+30.0% complete
+30.0% complete
+30.0% complete
+30.0% complete
+35.0% complete
+35.0% complete
+35.0% complete
+35.0% complete
+35.0% complete
+40.0% complete
+40.0% complete
+40.0% complete
+40.0% complete
+40.0% complete
+45.0% complete
+45.0% complete
+45.0% complete
+45.0% complete
+45.0% complete
+50.0% complete
+50.0% complete
+50.0% complete
+50.0% complete
+50.0% complete
+55.0% complete
+55.0% complete
+55.0% complete
+55.0% complete
+55.0% complete
+60.0% complete
+60.0% complete
+60.0% complete
+60.0% complete
+60.0% complete
+65.0% complete
+65.0% complete
+65.0% complete
+65.0% complete
+65.0% complete
+70.0% complete
+70.0% complete
+70.0% complete
+70.0% complete
+70.0% complete
+75.0% complete
+75.0% complete
+75.0% complete
+75.0% complete
+75.0% complete
+80.0% complete
+80.0% complete
+80.0% complete
+80.0% complete
+80.0% complete
+85.0% complete
+85.0% complete
+85.0% complete
+85.0% complete
+85.0% complete
+90.0% complete
+90.0% complete
+90.0% complete
+90.0% complete
+90.0% complete
+95.0% complete
+95.0% complete
+95.0% complete
+95.0% complete
+95.0% complete
+Output complete
+Output complete
+Output complete
+Output complete
+Output complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-24 20:16:39.198846: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-24 20:16:39.232323: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-24 20:16:39.233822: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55e05ea4c750 executing computations on platform Host. Devices:
+2020-04-24 20:16:39.233901: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-24 20:16:39.243711: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-24 20:16:41.764673: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-24 20:16:41.799925: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-24 20:16:41.801071: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555aaa560750 executing computations on platform Host. Devices:
+2020-04-24 20:16:41.801119: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-24 20:16:41.810943: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-24 20:16:44.299876: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-24 20:16:44.335958: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-24 20:16:44.336777: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55c42ba9d750 executing computations on platform Host. Devices:
+2020-04-24 20:16:44.336808: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-24 20:16:44.345436: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-24 20:16:46.845190: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-24 20:16:46.875853: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-24 20:16:46.876817: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55c80b019750 executing computations on platform Host. Devices:
+2020-04-24 20:16:46.876854: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-24 20:16:46.886865: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-24 20:16:49.008886: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-24 20:16:49.036012: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-24 20:16:49.037189: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55d78ea1a750 executing computations on platform Host. Devices:
+2020-04-24 20:16:49.037231: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-24 20:16:49.047930: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+5.0% complete
+5.0% complete
+5.0% complete
+5.0% complete
+5.0% complete
+10.0% complete
+10.0% complete
+10.0% complete
+10.0% complete
+10.0% complete
+15.0% complete
+15.0% complete
+15.0% complete
+15.0% complete
+15.0% complete
+20.0% complete
+20.0% complete
+20.0% complete
+20.0% complete
+20.0% complete
+25.0% complete
+25.0% complete
+25.0% complete
+25.0% complete
+25.0% complete
+30.0% complete
+30.0% complete
+30.0% complete
+30.0% complete
+30.0% complete
+35.0% complete
+35.0% complete
+35.0% complete
+35.0% complete
+35.0% complete
+40.0% complete
+40.0% complete
+40.0% complete
+40.0% complete
+40.0% complete
+45.0% complete
+45.0% complete
+45.0% complete
+45.0% complete
+45.0% complete
+50.0% complete
+50.0% complete
+50.0% complete
+50.0% complete
+50.0% complete
+55.0% complete
+55.0% complete
+55.0% complete
+55.0% complete
+55.0% complete
+60.0% complete
+60.0% complete
+60.0% complete
+60.0% complete
+60.0% complete
+65.0% complete
+65.0% complete
+65.0% complete
+65.0% complete
+65.0% complete
+70.0% complete
+70.0% complete
+70.0% complete
+70.0% complete
+70.0% complete
+75.0% complete
+75.0% complete
+75.0% complete
+75.0% complete
+75.0% complete
+80.0% complete
+80.0% complete
+80.0% complete
+80.0% complete
+80.0% complete
+85.0% complete
+85.0% complete
+85.0% complete
+85.0% complete
+85.0% complete
+90.0% complete
+90.0% complete
+90.0% complete
+90.0% complete
+90.0% complete
+95.0% complete
+95.0% complete
+95.0% complete
+95.0% complete
+95.0% complete
+Output complete
+Output complete
+Output complete
+Output complete
+Output complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-25 19:30:14.545693: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-25 19:30:14.612577: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-25 19:30:14.614577: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5565f64ec750 executing computations on platform Host. Devices:
+2020-04-25 19:30:14.614639: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-25 19:30:14.667346: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-25 19:30:17.693788: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-25 19:30:17.728667: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-25 19:30:17.730282: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55592a76d750 executing computations on platform Host. Devices:
+2020-04-25 19:30:17.730326: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-25 19:30:17.741074: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-25 19:30:20.787086: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-25 19:30:20.836512: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-25 19:30:20.837866: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55b5008aa750 executing computations on platform Host. Devices:
+2020-04-25 19:30:20.837906: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-25 19:30:20.847473: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-25 19:30:23.982667: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-25 19:30:24.012488: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-25 19:30:24.014535: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55a4669f7750 executing computations on platform Host. Devices:
+2020-04-25 19:30:24.014580: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-25 19:30:24.024624: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+WARNING:tensorflow:From github/genpotential.py:43: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From github/genpotential.py:44: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From github/genpotential.py:46: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From github/genpotential.py:53: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-25 19:30:26.235767: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-25 19:30:26.272484: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600005000 Hz
+2020-04-25 19:30:26.273130: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x559a9e91a750 executing computations on platform Host. Devices:
+2020-04-25 19:30:26.273176: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-04-25 19:30:26.281894: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+0.0% complete
+5.0% complete
+5.0% complete
+5.0% complete
+5.0% complete
+5.0% complete
+10.0% complete
+10.0% complete
+10.0% complete
+10.0% complete
+10.0% complete
+15.0% complete
+15.0% complete
+15.0% complete
+15.0% complete
+15.0% complete
+20.0% complete
+20.0% complete
+20.0% complete
+20.0% complete
+20.0% complete
+25.0% complete
+25.0% complete
+25.0% complete
+25.0% complete
+25.0% complete
+30.0% complete
+30.0% complete
+30.0% complete
+30.0% complete
+30.0% complete
+35.0% complete
+35.0% complete
+35.0% complete
+35.0% complete
+35.0% complete
+40.0% complete
+40.0% complete
+40.0% complete
+40.0% complete
+40.0% complete
+45.0% complete
+45.0% complete
+45.0% complete
+45.0% complete
+45.0% complete
+50.0% complete
+50.0% complete
+50.0% complete
+50.0% complete
+50.0% complete
+55.0% complete
+55.0% complete
+55.0% complete
+55.0% complete
+55.0% complete
+60.0% complete
+60.0% complete
+60.0% complete
+60.0% complete
+60.0% complete
+65.0% complete
+65.0% complete
+65.0% complete
+65.0% complete
+65.0% complete
+70.0% complete
+70.0% complete
+70.0% complete
+70.0% complete
+70.0% complete
+75.0% complete
+75.0% complete
+75.0% complete
+75.0% complete
+75.0% complete
+80.0% complete
+80.0% complete
+80.0% complete
+80.0% complete
+80.0% complete
+85.0% complete
+85.0% complete
+85.0% complete
+85.0% complete
+85.0% complete
+90.0% complete
+90.0% complete
+90.0% complete
+90.0% complete
+90.0% complete
+95.0% complete
+95.0% complete
+95.0% complete
+95.0% complete
+95.0% complete
+Output complete
+Output complete
+Output complete
+Output complete
+Output complete
