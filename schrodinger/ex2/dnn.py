@@ -19,7 +19,7 @@ sess = tf.Session(config=config)
 keras.backend.set_session(sess)
 
 bins = 128
-seedmax = 20 # opens seed files 0 - 19. Lost too much data due to kernel crashes, so these got broken up
+seedmax = 60 # opens seed files 0 - 19. Lost too much data due to kernel crashes, so these got broken up
 trainx = []
 trainy = []
 validx = []
